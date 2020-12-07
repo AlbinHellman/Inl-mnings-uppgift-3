@@ -1,4 +1,5 @@
   @import "./default";
+  
 
 *{
     box-sizing: border-box;
@@ -6,6 +7,54 @@
 
 html, body {
     margin: 0;
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     line-height: 1.5;
+}
+
+.Bildenöverst img{
+    height: 200px;
+    width: 30rem;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Förstaraden {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    color: grey;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+.del1 {
+    margin: 1rem;
+}
+
+.del2 {
+    margin: 1rem;
+}
+
+.Andraraden {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.del3 {
+    margin-left: 3rem;
+}
+
+.del4 {
+    margin-left: -5rem;
 }
