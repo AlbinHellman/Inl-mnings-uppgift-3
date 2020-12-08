@@ -74,6 +74,18 @@ html, body {
     
 }
 
+.Andrabilden img{
+height: 100px;
+width: 39rem;
+margin-top: 3rem;
+margin-left: 10rem;
+
+
+
+
+
+}
+
 .godkänndelen{
     margin: 0 auto;
     width: 1200px;
@@ -81,4 +93,30 @@ html, body {
     font-size: 20px;
     color: black;
     font-family: 'Roboto', sans-serif;
+}
+
+.Knapp{
+   margin: 0 auto;
+   width: 1200px;
+   color: black;
+   margin-top: 3rem;
+}
+
+.btn-knapp {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(170, 167, 167);
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-knapp:hover {
+    background-color: rgb(65, 57, 57);
+}
+
+.Enter p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    
 }
